@@ -48,7 +48,7 @@
                 return;
             }
             const img = new Image();
-            const path = `images/${folder}/${current}.jpg`;
+            const path = `images/${folder}/${current}.JPG`;
             img.onload = function() {
                 images.push(path);
                 consecutiveFails = 0;
@@ -117,7 +117,7 @@
     };
     setMeta('property', 'og:title', m.title);
     setMeta('property', 'og:description', m.description);
-    setMeta('property', 'og:image', 'images/og/1.jpg');
+    setMeta('property', 'og:image', 'images/og/1.JPG');
     setMeta('name', 'description', m.description);
   }
 
@@ -292,7 +292,7 @@
      ═══════════════════════════════════════════ */
 
   function initHero() {
-    $('#heroPhoto').src = 'images/hero/1.jpg';
+    $('#heroPhoto').src = 'images/hero/1.JPG';
     $('#heroNames').textContent = `${CONFIG.groom.name}  ·  ${CONFIG.bride.name}`;
     $('#heroDate').textContent = formatDate(CONFIG.wedding.date, CONFIG.wedding.time);
     $('#heroVenue').textContent = CONFIG.wedding.venue;
@@ -606,7 +606,7 @@
     $('#locationHall').textContent = w.hall;
     $('#locationAddress').textContent = w.address;
     $('#locationTel').textContent = w.tel ? `Tel. ${w.tel}` : '';
-    $('#locationMapImg').src = 'images/location/1.jpg';
+    $('#locationMapImg').src = 'images/location/1.JPG';
     $('#kakaoMapBtn').href = w.mapLinks.kakao || '#';
     $('#naverMapBtn').href = w.mapLinks.naver || '#';
 
