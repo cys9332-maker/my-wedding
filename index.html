@@ -266,17 +266,16 @@
     
 <section style="padding:48px 24px; background:#fff; text-align:center;">
   <div style="max-width:360px; margin:0 auto;">
-    <p style="font-family:'Nanum Myeongjo',serif; font-size:0.72rem;
-      letter-spacing:0.3em; color:#9a8878; margin-bottom:8px;">GUIDE</p>
-    <h2 style="font-family:'Nanum Myeongjo',serif; font-size:1.1rem;
-      color:#3d2e22; margin-bottom:32px;">이용 안내</h2>
+    <p style="margin-bottom:8px; color:#4A5E3B;">GUIDE</p>
+    <h2 style="font-size:1.0625rem; font-weight: 500;
+      color:#4A5E3B; margin-bottom:32px;">이용 안내</h2>
 
     <!-- 연회장 안내 -->
-    <div style="border-top:1px solid #e8ddd0; text-align:left;">
+    <div style="border-top:1px solid #e8ddd0; text-align:left; font-family: var(--font-sans);">
       <button onclick="toggleAccordion('hall')" style="
         width:100%; padding:18px 4px; background:none; border:none;
         display:flex; justify-content:space-between; align-items:center;
-        cursor:pointer; font-family:'Nanum Myeongjo',serif;">
+        cursor:pointer; font-family: ">
         <span style="font-size:0.88rem; color:#3d2e22;">🍽️ 연회장 안내</span>
         <span id="hall-arrow" style="font-size: 0.8rem; color: rgb(154, 136, 120); transform: rotate(0deg);">▼</span>
       </button>
@@ -293,11 +292,11 @@
     </div>
 
     <!-- 어린이 식권 안내 -->
-    <div style="border-top:1px solid #e8ddd0; text-align:left;">
+    <div style="border-top:1px solid #e8ddd0; text-align:left; font-family: var(--font-sans);">
       <button onclick="toggleAccordion('kids')" style="
         width:100%; padding:18px 4px; background:none; border:none;
         display:flex; justify-content:space-between; align-items:center;
-        cursor:pointer; font-family:'Nanum Myeongjo',serif;">
+        cursor:pointer;">
         <span style="font-size:0.88rem; color:#3d2e22;">👧 어린이 식권 안내</span>
         <span id="kids-arrow" style="font-size: 0.8rem; color: rgb(154, 136, 120); transform: rotate(0deg);">▼</span>
       </button>
@@ -312,11 +311,11 @@
     </div>
 
     <!-- ATM 기기 안내 -->
-    <div style="border-top:1px solid #e8ddd0; text-align:left;">
+    <div style="border-top:1px solid #e8ddd0; text-align:left; font-family: var(--font-sans);">
       <button onclick="toggleAccordion('atm')" style="
         width:100%; padding:18px 4px; background:none; border:none;
         display:flex; justify-content:space-between; align-items:center;
-        cursor:pointer; font-family:'Nanum Myeongjo',serif;">
+        cursor:pointer; ">
         <span style="font-size:0.88rem; color:#3d2e22;">🏧 ATM 기기 안내</span>
         <span id="atm-arrow" style="font-size: 0.8rem; color: rgb(154, 136, 120); transform: rotate(0deg);">▼</span>
       </button>
@@ -331,11 +330,11 @@
     </div>
 
     <!-- 차량 안내 -->
-    <div style="border-top:1px solid #e8ddd0; text-align:left;">
+    <div style="border-top:1px solid #e8ddd0; text-align:left; font-family: var(--font-sans);">
       <button onclick="toggleAccordion('car')" style="
         width:100%; padding:18px 4px; background:none; border:none;
         display:flex; justify-content:space-between; align-items:center;
-        cursor:pointer; font-family:'Nanum Myeongjo',serif;">
+        cursor:pointer;">
         <span style="font-size:0.88rem; color:#3d2e22;">🚗 차량을 가져오신다면?</span>
         <span id="car-arrow" style="font-size: 0.8rem; color: rgb(154, 136, 120); transform: rotate(0deg);">▼</span>
       </button>
@@ -368,11 +367,11 @@
     </div>
 
     <!-- 대중교통 안내 -->
-    <div style="border-top:1px solid #e8ddd0; text-align:left;">
+    <div style="border-top:1px solid #e8ddd0; text-align:left; font-family: var(--font-sans);">
       <button onclick="toggleAccordion('transit')" style="
         width:100%; padding:18px 4px; background:none; border:none;
         display:flex; justify-content:space-between; align-items:center;
-        cursor:pointer; font-family:'Nanum Myeongjo',serif;">
+        cursor:pointer;">
         <span style="font-size:0.88rem; color:#3d2e22;">🚇 대중교통으로 오신다면?</span>
         <span id="transit-arrow" style="font-size: 0.8rem; color: rgb(154, 136, 120); transform: rotate(0deg);">▼</span>
       </button>
@@ -383,13 +382,14 @@
           </p>
       </div>
     </div>
-
+    </div>
+    
     <!-- 신부대기실·포토테이블 안내 -->
-    <div style="border-top:1px solid #e8ddd0; border-bottom:1px solid #e8ddd0; text-align:left;">
+    <div style="border-top:1px solid #e8ddd0; border-bottom:1px solid #e8ddd0; text-align:left; font-family: var(--font-sans);">
       <button onclick="toggleAccordion('photo')" style="
         width:100%; padding:18px 4px; background:none; border:none;
         display:flex; justify-content:space-between; align-items:center;
-        cursor:pointer; font-family:'Nanum Myeongjo',serif;">
+        cursor:pointer;">
         <span style="font-size:0.88rem; color:#3d2e22;">📸 신부대기실 · 포토테이블</span>
         <span id="photo-arrow" style="font-size: 0.8rem; color: rgb(154, 136, 120); transform: rotate(0deg);">▼</span>
       </button>
@@ -403,7 +403,7 @@
     </div>
 
   </div>
-</div></section>
+</section>
   
    <script>
   function toggleAccordion(id) {
